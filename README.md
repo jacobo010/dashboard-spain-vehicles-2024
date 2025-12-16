@@ -6,6 +6,8 @@
 
 ## Spanish version
 
+### [Dashboard interactivo](https://app.powerbi.com/view?r=eyJrIjoiYjgxYzFmNWMtMmM2NS00MjMwLWI4OTktYWI5M2Q4OTViODg3IiwidCI6IjMxNjUxZjMwLWUwZTktNDMxYy04YzVlLWY1YzQ5MTMwZjY2MiIsImMiOjh9)
+
 ## Objetivo
 Analizar la composición del parque de vehículos en España y su antigüedad, permitiendo comparar resultados por comunidad autónoma, provincia y municipio.
 
@@ -49,11 +51,6 @@ Dashboard interactivo desarrollado en Power BI para analizar los vehículos regi
 - `vehiculos_españa_dashboard.pbit`: plantilla del dashboard **sin datos**  
 - `vehiculos_españa_dashboard.pbix`: versión completa del dashboard lista para abrir (1,6 MB, datos públicos)
 
-## Cómo abrir el dashboard
-1. Descargar la versión completa (`vehiculos_españa_dashboard.pbix`) para ver el dashboard directamente con datos incluidos, o descargar la plantilla (`vehiculos_españa_dashboard.pbit`) si deseas reutilizarla.
-2. Abrir el archivo con Power BI Desktop.
-3. Si abres la plantilla `.pbit`, es necesario tener los archivos de datos en la carpeta `data/` y conectar Power BI a ellos para que los visuales se carguen correctamente.
-
 ## Notas
 - Los valores mostrados corresponden a promedios y totales agregados.  
 - El análisis depende de la calidad y actualización de los datos publicados por la DGT.
@@ -62,6 +59,7 @@ Dashboard interactivo desarrollado en Power BI para analizar los vehículos regi
 
 ## English Version
 
+### [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYjgxYzFmNWMtMmM2NS00MjMwLWI4OTktYWI5M2Q4OTViODg3IiwidCI6IjMxNjUxZjMwLWUwZTktNDMxYy04YzVlLWY1YzQ5MTMwZjY2MiIsImMiOjh9)
 
 ## Vehicle Dashboard 2024 - Power BI
 
@@ -111,11 +109,6 @@ Interactive dashboard developed in Power BI to analyze the currently registered 
 - `README.md`: project content  
 - `vehiculos_españa_dashboard.pbit`: dashboard template **without data**  
 - `vehiculos_españa_dashboard.pbix`: full dashboard version ready to open (1.6 MB, public data)
-
-## How to Open the Dashboard
-1. Download the full version (`vehiculos_españa_dashboard.pbix`) to view the dashboard directly with data included, or download the template (`vehiculos_españa_dashboard.pbit`) if you want to reuse it.  
-2. Open the file with Power BI Desktop.  
-3. If you open the `.pbit` template, you need to have the data files in the `data/` folder and connect Power BI to them so that the visuals load correctly.
 
 ## Notes
 - The values shown correspond to averages and aggregated totals.  
