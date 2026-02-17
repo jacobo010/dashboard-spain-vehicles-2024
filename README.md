@@ -8,8 +8,21 @@
 
 ### [Dashboard interactivo](https://app.powerbi.com/view?r=eyJrIjoiYjgxYzFmNWMtMmM2NS00MjMwLWI4OTktYWI5M2Q4OTViODg3IiwidCI6IjMxNjUxZjMwLWUwZTktNDMxYy04YzVlLWY1YzQ5MTMwZjY2MiIsImMiOjh9)
 
-## Objetivo
-Analizar la composición del parque de vehículos en España y su antigüedad, permitiendo comparar resultados por comunidad autónoma, provincia y municipio.
+Este proyecto analiza el parque de vehículos en España en **2024** con el objetivo de extraer insights estratégicos sobre distribución territorial, composición por tipo de vehículo, envejecimiento del parque y grado de electrificación.
+
+## Impacto del análisis:
+Este dashboard permite:
+- Detectar desequilibrios territoriales en el parque automovilístico.
+- Evaluar el ritmo real de transición hacia movilidad sostenible.
+- Identificar el envejecimiento estructural del parque español.
+- Servir como base para análisis predictivos o estudios de política pública.
+
+## Objetivos
+- Analizar la distribución del parque automovilístico por Comunidad Autónoma.
+- Evaluar la composición por tipo de vehículo.
+- Medir el grado de electrificación del parque.
+- Estudiar la edad media de los vehículos y sus implicaciones.
+- Construir un dashboard interactivo que permita explorar los datos de forma intuitiva.
 
 ## Fuente de los datos
 Los datos han sido obtenidos en formato `EXCEL` a través de la web oficial de la [DGT](https://www.dgt.es/menusecundario/dgt-en-cifras/dgt-en-cifras-resultados/dgt-en-cifras-detalle/Datos-municipales-informacion-general-2024/).  
@@ -21,18 +34,26 @@ Contienen información sobre:
 - La distribución de vehículos según los distintos tipos de distintivos ambientales
 - El total de vehículos y su clasificación por tipo
 
-Año de referencia: **2024**.
-
-## Descripción
-Dashboard interactivo desarrollado en Power BI para analizar los vehículos registrados actualmente en el territorio español.
-
 ## Visualizaciones
+- **KPIs**: Nº total de vehículos, nº total de conductores, porcentaje de vehículos electrficados, vehículos por habitante, edad media total de vehiculos
 - **Gráfico de barras horizontales**: Número total de vehículos por Comunidad Autónoma  
 - **Gráfico de barras verticales**: Antigüedad promedio por tipo de vehículo  
-- **Gráfico de tarta**: Distribución de tipos de vehículos  
-- **Gráfico de donut**: Distribución de distintivos ambientales  
+- **Gráfico de barra horizontal apilada**: Distribución de tipos de vehículos  
+- **Gráfico de tarta**: Distribución de distintivos ambientales  
 - **Gráfico de barras verticales**: Distribución de tipo de combustible  
-- **Segmentadores**: Comunidad Autónoma, provincia y municipio  
+- **Segmentadores**: Comunidad Autónoma, provincia y municipio
+
+## Metodología
+- Limpieza y estandarización de nombres geográficos.
+- Modelado relacional en Power BI.
+- Creación de medidas DAX para agregaciones y KPIs.
+
+## Insights Clave
+
+- El 69% del parque está compuesto por turismos, lo que confirma un modelo de movilidad centrado en vehículo privado ligero.
+- La electrificación (<1%) muestra una adopción todavía marginal, lejos de los objetivos europeos de descarbonización.
+- La edad media superior a 15 años indica un parque envejecido, con impacto potencial en emisiones y seguridad vial.
+- Andalucía, Cataluña y Madrid concentran el mayor volumen absoluto de vehículos.
 
 ## Herramientas utilizadas
 - Power BI Desktop
